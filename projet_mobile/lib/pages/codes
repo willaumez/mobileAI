@@ -1,0 +1,16 @@
+Expanded(
+                                child: Center(
+                                  child: Container(
+                                    margin: EdgeInsets.symmetric(horizontal: 2.0),
+                                    child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        _buildTableCell(activity['titre']),
+                                        Divider(),
+                                        SizedBox(height: 8),
+                                        _buildTableCell(activity['categorie']),
+                                      ],
+                                    ),
+                                  ),
+                                ),
+                              ),

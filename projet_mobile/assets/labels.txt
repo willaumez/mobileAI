@@ -1,0 +1,4 @@
+0 Sport
+1 Shopping
+2 Fitness
+3 Autres
